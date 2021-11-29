@@ -1,0 +1,13 @@
+/* 
+  InfoPlist.strings
+  D-Day
+
+  Created by GC on 2021/11/18.
+  
+*/
+
+"CFBundleDisplayName" = "D-Day 情侶微件";
+"NSPhotoLibraryUsageDescription" = "我們需要訪問照片 以用作頭像";
+"NSFaceIDUsageDescription" = "用於登錄“%@”";
+"NSUserTrackingUsageDescription"="該標識符將用於向您投放個性化廣告。";
+

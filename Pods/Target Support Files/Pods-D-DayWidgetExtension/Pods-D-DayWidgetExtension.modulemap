@@ -1,0 +1,6 @@
+framework module Pods_D_DayWidgetExtension {
+  umbrella header "Pods-D-DayWidgetExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

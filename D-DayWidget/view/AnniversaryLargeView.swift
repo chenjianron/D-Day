@@ -1,0 +1,86 @@
+//
+//  AnniversaryLargeView.swift
+//  D-Day
+//
+//  Created by GC on 2021/11/17.
+//
+
+import SwiftUI
+
+@available(iOS 13.0, *)
+struct AnniversaryLargeView: View {
+    
+    var title: String
+    var date: Date
+    
+    var body: some View {
+        
+            ZStack{
+                
+                Image(uiImage: #imageLiteral(resourceName: "Anniversary-SmallComponent-Large"))
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                
+                VStack {
+                    Text(LocalizedStringKey(title))
+                        .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+                        .font(.system(size: 14))
+                        .foregroundColor(.white)
+                        .minimumScaleFactor(0.1)
+                        .lineLimit(1)
+                    HStack {
+                        if Date().numberOfDays(to: date) == 0 {
+                            Text(LocalizedStringKey("今天"))
+                                .font(.system(size: 69, weight: .bold, design: .default))
+                                .foregroundColor(.white)
+                                .lineLimit(1)
+                                .minimumScaleFactor(0.1)
+                        } else if Date().numberOfDays(to: date) < 0 {
+                            Text(LocalizedStringKey("已过"))
+                                .font(.system(size: 21))
+                                .foregroundColor(.white)
+                                .lineLimit(1)
+                                .minimumScaleFactor(0.1)
+                                .padding(EdgeInsets(top: 30, leading: 0, bottom: 0, trailing: 0))
+                            Text(abs(Date().numberOfDays(to: date)).description)
+                                .font(.system(size: 69, weight: .bold, design: .default))
+                                .foregroundColor(.white)
+                                .lineLimit(1)
+                                .minimumScaleFactor(0.1)
+                                .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+                            Text(LocalizedStringKey("天"))
+                                .font(.system(size: 21))
+                                .foregroundColor(.white)
+                                .lineLimit(1)
+                                .padding(EdgeInsets(top: 30, leading: 0, bottom: 0, trailing: 0))
+                        } else {
+                            Text(Date().numberOfDays(to: date).description)
+                                .font(.system(size: 69, weight: .bold, design: .default))
+                                .foregroundColor(.white)
+                                .lineLimit(1)
+                                .minimumScaleFactor(0.1)
+                            Text(LocalizedStringKey("天"))
+                                .font(.system(size: 21))
+                                .foregroundColor(.white)
+                                .lineLimit(1)
+                                .padding(EdgeInsets(top: 30, leading: 0, bottom: 0, trailing: 0))
+                        }
+//                        Text(Date().numberOfDays(to: date).description)
+//                            .font(.system(size: 69, weight: .bold, design: .default))
+//                            .foregroundColor(.white)
+//                            .lineLimit(1)
+//                            .minimumScaleFactor(0.1)
+//                        Text(LocalizedStringKey("天"))
+//                            .font(.system(size: 21))
+//                            .foregroundColor(.white)
+//                            .lineLimit(1)
+//                            .padding(EdgeInsets(top: G.share.h(17), leading: 0, bottom: 0, trailing: 0))
+                    }
+                }
+                .padding(EdgeInsets(top: 60, leading: 24, bottom: 51, trailing: 24))
+//                .frame(height:78)
+//                .clipped()
+            }
+    }
+}
+

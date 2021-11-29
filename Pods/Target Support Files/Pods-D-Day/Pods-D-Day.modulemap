@@ -1,0 +1,6 @@
+framework module Pods_D_Day {
+  umbrella header "Pods-D-Day-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,95 @@
+/* 
+  Localizations.strings
+  D-Day
+
+  Created by GC on 2021/11/18.
+  
+*/
+
+// 已翻译
+"在一起的第"="Together";
+"天"="day";
+"目前没有内容\n点击右上角添加"="There is currently no content\nclick to add in the upper right corner";
+"年"="Year";
+"月"="mon";
+"删除"="Delete";
+"删除后无法找回\n确认删除该便签吗？"="Can’t retrieve it after deletion\nAre you sure to delete this note?";
+"取消"="Cancel";
+"名称:"="name:";
+"保存"="Save";
+"日期:"="date:";
+"置顶:"="Top:";
+"提醒:"="remind:";
+"提醒方式:"="Reminder method:";
+"提醒时间:"="Reminder time:";
+"确认退出"="confirm exit";
+"所设纪念日未保存，确认退出吗？"="The set anniversary has not been saved, confirm to exit?";
+"确认"="Confirm";
+"编辑纪念日"="Edit Anniversary";
+"删除后无法找回\n确认删除该纪念日"="Cannot be retrieved after deletion\nConfirm to delete the anniversary";
+"添加纪念日"="Add Anniversary";
+"编辑"="Edit";
+"记录点什么···"="please enter···";
+"跳过"="Skip";
+"选择恋情开始的时间"="Choosing the start time of the romance";
+"确定"="‍⁢⁣⁤⁤OK‍⁢⁣⁤";
+"两次密码不一致，请重新设置！"="Inconsistent passwords, please reset!";
+"请输入密码"="Enter password";
+"确认密码"="Confirm password";
+"设置密码"="Set Password";
+"需要您的密码，才能启用 Touch ID"="Your password is required to enable Touch ID";
+"进行验证"="authenticating";
+"设备不支持Touch ID/Face ID"="The device does not support Touch ID/Face ID";
+"没有设置设备密码，无法使用指纹（人脸）识别"="No device password, fingerprint (face) recognition cannot be used";
+"没有录入指纹/人脸"="No fingerprint/face";
+"检测到您未设置"="Detected that you have not set";
+"请前往「设置 >>"="Please go to Settings >>";
+"与密码」中设置您的"="And password to set your";
+"在一起的日期"="Date together";
+"从零开始"="Starting from zero";
+"密码锁"="Password lock";
+"小组件教程"="Widget tutorial";
+"意见反馈"="Feedback";
+"分享给好友"="Share to friends";
+"给个评价"="Give a comment";
+"隐私政策"="Privacy Policy";
+"用户协议"="User Agreements";
+"未设置邮箱账户"="No email account set up";
+"要发送电子邮件，请设置电子邮件账户"="Please set up an email account to send emails";
+"面部/指纹"="Face/fingerprint";
+"设置"="Settings";
+"在主屏幕上，长按空白区域，直到App开始晃动。轻点左上角的添加按钮。"="On the home screen, press and hold a blank area until the app starts shaking. Tap the add button at the top left corner.";
+"滚动或搜索来找到「恋爱记录」小组件，轻点小组件，然后向左轻扫查看大小选项。"="Select the widget (D-Day Couple), choose from two widget sizes, then tap Add Widget.";
+"选择一个小组件，从三种小组件尺寸中进行选取，然后轻点“添加小组件”"="Select a widget, choose from three widget sizes, and tap “Add widget”";
+"长按小组件，选择「编辑小组件」，即可选择想要显示的纪念日，背景可到相应纪念日修改。"="Long press the widget and select ”Edit widget“ to select the anniversary you want to display, and the background can be modified to the corresponding anniversary.";
+"无法访问照片"="Can’t access Photos";
+"您需要设置允许应用访问“照片”权限才可以使用"="You must allow %@ to access Photos first";
+"去设置"="Go Settings";
+"一个月"="A month";
+"100天纪念日"="100 days anniversary";
+"六个月纪念日"="Six month anniversary";
+"一周年"="1st anniversary";
+"两周年"="2nd anniversary";
+"999天"="999 days";
+"当天提醒"="Reminder of the day";
+"提前三天提醒"="Three days in advance";
+"提前一周提醒"="A week in advance";
+"%@就是今天"="%@It's today";
+"距离%@ 还有%d天"="%D days away from %@";
+"开启后，在一起当天为第0天"="After opening, the day together is the 0th day";
+"日"="Sun";
+"一"="Mon";
+"二"="Tue";
+"三"="Wed";
+"四"="Thu";
+"五"="Fri";
+"六"="Sat";
+"无邮件账户"="No Mail Accounts";
+"请设置邮件账户来发送电子邮件"="Please set up a Mail account in order to send email.";
+"好"="OK";
+"起始于："="started from:";
+"我们已相爱 %d 天"="We have been in love for %d days";
+"已过 %d 天"="%d days elapsed";
+"%d 天"="%d days";
+"点击头像可更换"="Click on the avatar to change";
+"今天"="Today";

@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  D-Day
+
+  Created by GC on 2021/11/18.
+  
+*/
+
+"CFBundleDisplayName" = "D-Day Couple";
+"NSPhotoLibraryUsageDescription" = "We need to access the photo to use as an avatar";
+"NSFaceIDUsageDescription" = "Used to log in %@";
+"NSUserTrackingUsageDescription"="This identifier will be used to deliver personalized ads to you.";

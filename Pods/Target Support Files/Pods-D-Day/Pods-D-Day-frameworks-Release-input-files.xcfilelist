@@ -1,0 +1,15 @@
+${PODS_ROOT}/Target Support Files/Pods-D-Day/Pods-D-Day-frameworks.sh
+${PODS_ROOT}/AdLib/AdLib/Vendor/FBAudienceNetwork-6.5.0/FBAudienceNetwork.framework
+${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework
+${BUILT_PRODUCTS_DIR}/HouseAdLib/HouseAdLib.framework
+${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework
+${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework
+${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/STRegex/Regex.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON-flow/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework
+${BUILT_PRODUCTS_DIR}/Toolkit/Toolkit.framework
+${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework

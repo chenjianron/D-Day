@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  D-Day
+
+  Created by GC on 2021/11/18.
+  
+*/
+
+"CFBundleDisplayName" = "恋爱记录";
+"NSPhotoLibraryUsageDescription" = "我们需要访问照片用作头像";
+"NSFaceIDUsageDescription" = "用于登录“%@”";
+"NSUserTrackingUsageDescription"="该标识符将用于向您投放个性化广告。";

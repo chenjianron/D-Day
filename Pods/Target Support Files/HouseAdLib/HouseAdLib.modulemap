@@ -1,0 +1,6 @@
+framework module HouseAdLib {
+  umbrella header "HouseAdLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  D-Day
+
+  Created by GC on 2021/11/18.
+  
+*/
+
+"CFBundleDisplayName" = "恋して何日";
+"NSPhotoLibraryUsageDescription" = "写真にアクセスする必要がある アバターとして使用";
+"NSFaceIDUsageDescription" = "「％@」へのログインに使用";
+"NSUserTrackingUsageDescription"="この識別子は、パーソナライズされた広告を配信するために使用されます。";

@@ -1,0 +1,6 @@
+framework module BUVAAuxiliary {
+  umbrella header "BUVAAuxiliary.h"
+
+  export *
+  module * { export * }
+}
